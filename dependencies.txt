@@ -1,0 +1,21 @@
+# AlgeriaPay - Backend Dependencies
+
+## Flask Framework
+Flask==3.0.0
+
+## Payment Gateway Integrations
+requests==2.31.0  # For API calls (Chargily, PayPal, etc.)
+
+## Security & Authentication
+Flask-CORS==4.0.0  # Handling CORS issues
+Flask-Bcrypt==1.0.1  # Secure password hashing (if needed)
+
+## Environment Variables Management
+python-dotenv==1.0.0  # Load environment variables from .env file
+
+## JSON Handling
+Flask-RESTful==0.3.9  # API development with Flask
+
+## Debugging & Development Tools
+Flask-DebugToolbar==0.11.0  # Debugging Flask applications
+
