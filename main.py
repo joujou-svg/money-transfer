@@ -16,13 +16,13 @@ CORS(app, supports_credentials=True)
 logging.basicConfig(level=logging.INFO)
 
 # Chargily API Configuration
-CHARGILY_API_KEY = os.getenv("CHARGILY_API_KEY", "test_pk_X2cHoHcNoDoMTXxjcXdOKjRlcGYWuLS6EuQwEfH9")
-CHARGILY_SECRET_KEY = os.getenv("CHARGILY_SECRET_KEY", "test_sk_4MiTl537oxKnWIqCLoRvXQxfX7syMsDKHwxt6NUf")
+CHARGILY_API_KEY = os.getenv("CHARGILY_API_KEY", "test_api_key")
+CHARGILY_SECRET_KEY = os.getenv("CHARGILY_SECRET_KEY", "test_secret_key")
 CHARGILY_BASE_URL = "https://pay.chargily.net/test/api/v2"
 
 # PayPal API Configuration
-PAYPAL_CLIENT_ID = os.getenv("PAYPAL_CLIENT_ID", "AUGtpmPGTGdh0l6_XHa8uOCYLSelzmsESuUt-8jgdH17IaI_e2TD9Wiugin9S47-5BIr0FdvIp550vMM")
-PAYPAL_CLIENT_SECRET = os.getenv("PAYPAL_CLIENT_SECRET", "EEKvDhQ2I99a8Y_ln4cFJ64Ta6zyJhJUBnXtpWVgFK2IYQVp7eMucS9HzOAOO813J4_npCj7RjFKgIgC")
+PAYPAL_CLIENT_ID = os.getenv("PAYPAL_CLIENT_ID", "tes_client_id")
+PAYPAL_CLIENT_SECRET = os.getenv("PAYPAL_CLIENT_SECRET", "test_client_secret")
 PAYPAL_BASE_URL = "https://api.sandbox.paypal.com" #if os.getenv("ENV") == "development" else "https://api.paypal.com"
 
 # Fees Configuration
